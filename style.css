@@ -171,7 +171,8 @@ h1 {
     font-size: 60px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-weight: 700;
     font-size: 35px;
 }
@@ -253,12 +254,10 @@ p {
 .carousel-slide {
     display: flex;
     overflow-x: auto;
-    /* Adiciona scroll horizontal para dispositivos menores */
 }
 
 .carousel-slide img {
     max-width: 100vw;
-    /* Reduz o tamanho das imagens em 70% */
     height: auto;
     margin-right: 10px;
 }
@@ -267,11 +266,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Adiciona um espaçamento interno ao footer */
+    padding: 20px;
     margin: 40px auto 150px;
-  }
-  
-  #button-history {
+}
+
+#button-history {
     background-color: rgb(214, 212, 208);
     border-radius: 5px;
     color: rgba(255, 255, 255, 1);
@@ -281,19 +280,57 @@ footer {
     width: 200px;
     border: none;
     opacity: 1;
-  }
-  
-  #footer-informations {
-    flex: 1; /* Ocupa o espaço restante no footer */
+}
+
+#footer-informations {
+    flex: 1;
     margin-left: 32%;
-  }
-  #footer-informations p {
+}
+
+#footer-informations p {
     max-width: 740px;
-  }
+}
 
 @media (max-width: 768px) {
     .carousel-slide img {
         width: 90%;
         margin-right: 5px;
     }
+
+    .container-img img:nth-child(1) {
+        left: 0;
+        top: 30px;
+        width: 130px;
+    }
+
+    .container-img img:nth-child(2) {
+        flex: 2;
+        z-index: 2;
+        min-width: 400px;
+    }
+
+    .container-img img:nth-child(3) {
+        left: 65%;
+        top: 8%;
+        width: 150px;
+    }
+
+    .container-img img:nth-child(4) {
+        left: 77%;
+        bottom: 280px;
+        width: 80px;
+    }
+
+    .container-img img:nth-child(5) {
+        left: -10px;
+        bottom: 0;
+        width: 130px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 37px;
+    }
+
 }
