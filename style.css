@@ -333,4 +333,8 @@ footer {
         font-size: 37px;
     }
 
+    nav a:not(:first-child) {
+        display: none;
+    }
+
 }
