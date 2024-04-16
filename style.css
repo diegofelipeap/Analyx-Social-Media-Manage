@@ -119,40 +119,44 @@ select {
 .container-img img:nth-child(2) {
     flex: 2;
     z-index: 2;
+    min-width: 400px;
 }
 
 .container-img img:not(:nth-child(2)) {
-    max-width: 25%;
+    max-width: 85%;
 }
 
 .container-img img:nth-child(1) {
     position: absolute;
-    left: 0;
+    right: 400px;
     top: 0;
-    max-width: 40% !important;
+    width: 200px;
 }
 
 .container-img img:nth-child(5) {
     position: absolute;
-    left: 20px;
+    right: 295px;
     bottom: 0;
     z-index: 1;
+    max-width: 400px;
 }
 
 .container-img img:nth-child(3) {
     position: absolute;
-    right: 0;
+    left: 90%;
     padding-left: 20px;
-    top: 0;
-    z-index: 3;
+    top: 80px;
+    z-index: 1;
+    width: 300px;
 }
 
 .container-img img:nth-child(4) {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 422px;
+    bottom: 60px;
     border-radius: 10px;
     z-index: 3;
+    max-width: 200px;
 }
 
 
@@ -164,17 +168,17 @@ p {
 
 h1 {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h2, h3 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #777777
 }
 
@@ -209,10 +213,10 @@ p {
 }
 
 .logos-center {
-    width: 20vw;
+    width: 50vw;
     height: auto;
     cursor: pointer;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 #services {
@@ -292,5 +296,4 @@ footer {
         width: 90%;
         margin-right: 5px;
     }
-
 }
