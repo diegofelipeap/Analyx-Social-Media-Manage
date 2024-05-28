@@ -270,7 +270,7 @@ footer {
     margin: 40px auto 150px;
 }
 
-#button-history {
+.button-history {
     background-color: rgb(214, 212, 208);
     border-radius: 5px;
     color: rgba(255, 255, 255, 1);
@@ -297,7 +297,11 @@ footer {
         margin-right: 5px;
     }
 
-    .container-img img:nth-child(1) {
+    .container-img {
+        max-width: 414px;
+    }
+
+    .container-img>img:nth-child(1) {
         left: 20px;
         top: 20px;
         width: 130px;
@@ -306,7 +310,7 @@ footer {
     .container-img img:nth-child(2) {
         flex: 2;
         z-index: 2;
-        max-width: 440px;
+        max-width: 414px;
         display: flex;
         justify-content: center;
     }
@@ -342,7 +346,15 @@ footer {
         font-size: 12px;
     }
 
-    .logos-center{
+    .logos-center {
         width: 60vw;
+    }
+
+    .button-history {
+        border-radius: 5px;
+        font-size: 12px;
+        height: 30px;
+        width: 150px;
+        border: none;
     }
 }
