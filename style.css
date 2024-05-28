@@ -119,44 +119,44 @@ select {
 .container-img img:nth-child(2) {
     flex: 2;
     z-index: 2;
-    min-width: 400px;
+    max-width: 900px;
 }
 
 .container-img img:not(:nth-child(2)) {
-    max-width: 85%;
+    max-width: 100%;
 }
 
 .container-img img:nth-child(1) {
     position: absolute;
-    right: 400px;
+    left: 12px;
     top: 0;
-    width: 200px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .container-img img:nth-child(5) {
     position: absolute;
-    right: 295px;
+    left: -55px;
     bottom: 0;
     z-index: 1;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .container-img img:nth-child(3) {
     position: absolute;
-    left: 90%;
-    padding-left: 20px;
-    top: 80px;
+    right: -3vw;
+    top: 15px;
     z-index: 1;
-    width: 300px;
+    width: 320px;
 }
 
 .container-img img:nth-child(4) {
     position: absolute;
-    left: 422px;
-    bottom: 60px;
+    right: -4vw;
+    bottom: 0;
     border-radius: 10px;
     z-index: 3;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 
@@ -214,7 +214,7 @@ p {
 }
 
 .logos-center {
-    width: 50vw;
+    width: 20vw;
     height: auto;
     cursor: pointer;
     margin-bottom: 100px;
@@ -298,31 +298,32 @@ footer {
     }
 
     .container-img img:nth-child(1) {
-        left: 0;
-        top: 30px;
+        left: 20px;
+        top: 20px;
         width: 130px;
     }
 
     .container-img img:nth-child(2) {
         flex: 2;
         z-index: 2;
-        min-width: 400px;
+        max-width: 440px;
+        display: flex;
+        justify-content: center;
     }
 
     .container-img img:nth-child(3) {
-        left: 65%;
-        top: 8%;
+        left: 66%;
+        top: 7%;
         width: 150px;
     }
 
     .container-img img:nth-child(4) {
-        left: 77%;
-        bottom: 280px;
-        width: 80px;
+        left: 69%;
+        width: 115px;
     }
 
     .container-img img:nth-child(5) {
-        left: -10px;
+        left: 8px;
         bottom: 0;
         width: 130px;
     }
@@ -339,5 +340,9 @@ footer {
 
     nav button {
         font-size: 12px;
+    }
+
+    .logos-center{
+        width: 60vw;
     }
 }
