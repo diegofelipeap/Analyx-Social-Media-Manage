@@ -21,11 +21,7 @@ A página apresenta os seguintes elementos:
 
 ## Sobre a Apresentação
 
-A landing page está sendo trabalhada de forma responsiva, garantindo uma boa experiência de usuário em dispositivos de diferentes tamanhos. O design é limpo e moderno, com ênfase na usabilidade e na apresentação clara das informações.
-
-## Demonstração
-
-[Em breve...]
+A landing page está sendo trabalhada de forma responsiva, garantindo uma boa experiência de usuário em dispositivos de diferentes tamanhos. O design é limpo e moderno, com ênfase na usabilidade e na apresentação clara das informações. Todas as imagens utilizadas foram geradas artificialmente, sem necessidade de direitos autorais.
 
 ## Instruções de Uso
 
