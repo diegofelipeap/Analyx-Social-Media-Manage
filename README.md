@@ -1,6 +1,6 @@
 # Analyx - Social Media Manage
 
-Este é um projeto de uma landing page para a empresa Analyx, que oferece serviços de gestão de mídias sociais. A página apresenta informações sobre a empresa, seus serviços e sua missão, além de incluir um carrossel de imagens e um footer informativo.
+Este é um projeto de uma landing page chamado Analyx, que oferece serviços de gestão de mídias sociais. A página apresenta informações sobre a empresa, seus serviços e sua missão, além de incluir um carrossel de imagens e um footer informativo.
 
 ## Conteúdo
 
